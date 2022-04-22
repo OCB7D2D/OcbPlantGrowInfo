@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="OcbPlantGrowInfo" />
+		<Description value="Reveal growing plant progress and light state" />
+		<Website value="https://github.com/OCB7D2D/OcbPlantGrowInfo" />
+		<Author value="ocbMaurice" />
+		<Version value="0.1.0" compat="A20"/>
+	</ModInfo>
+</xml>
