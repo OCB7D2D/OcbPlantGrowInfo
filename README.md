@@ -9,6 +9,12 @@ https://github.com/OCB7D2D/OcbRemoteDescription
 
 [![GitHub CI Compile Status][3]][2]
 
+## Changelog
+
+### Version 0.1.2
+
+- Add automated translations for 28 languages via DeepL
+
 ## Compatibility
 
 I've developed and tested this Mod against version a20.3(b3).
