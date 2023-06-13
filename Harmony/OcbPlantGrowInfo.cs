@@ -1,10 +1,6 @@
 using HarmonyLib;
-using UnityEngine;
 using System.Reflection;
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 
 public class OcbPlantGrowInfo : IModApi
 {
@@ -12,8 +8,8 @@ public class OcbPlantGrowInfo : IModApi
     // Entry class for A20 patching
     public void InitMod(Mod mod)
     {
-        Log.Out("Loading OCB Plant Growth Info Patch: " + GetType().ToString());
-        var harmony = new Harmony(GetType().ToString());
+        Log.Out("OCB Harmony Patch: " + GetType().ToString());
+        Harmony harmony = new Harmony(GetType().ToString());
         harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 

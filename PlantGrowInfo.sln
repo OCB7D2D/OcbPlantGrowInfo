@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{7d66b20e-99d2-42a3-8c23-01b8fdf0a605}") = "OcbPlantGrowInfo", "OcbPlantGrowInfo.csproj", "{1fb0024f-9b93-4006-a124-748b60cc53f0}"
+Project("{7d66b20e-99d2-42a3-8c23-01b8fdf0a605}") = "PlantGrowInfo", "PlantGrowInfo.csproj", "{1fb0024f-9b93-4006-a124-748b60cc53f0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
