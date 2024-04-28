@@ -16,6 +16,10 @@ Ensure you don't have double nested folders and ModInfo.xml is at right place!
 
 ## Changelog
 
+### Version 0.2.1
+
+- Add check to avoid division by zero error
+
 ### Version 0.2.0
 
 - Update compatibility for 7D2D A21.0(b313)

@@ -69,7 +69,8 @@ public class OcbPlantGrowInfo : IModApi
                                 ulong rest = entry.scheduledTime - GameTimer.Instance.ticks;
                                 __result += string.Format("\n" +
                                     Localization.Get("plantProgress"),
-                                    100 - 100 * rest / plant.GetTickRate(),
+                                    plant.GetTickRate() == 0 ? 0 :
+                                        100 - 100 * rest / plant.GetTickRate(),
                                     rest, plant.GetTickRate());
                                 // Check light levels to indicate if plant can grow or not
                                 var light = world.GetBlockLightValue(0, _blockPos);
