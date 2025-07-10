@@ -1,4 +1,4 @@
-# OCB Plant Growing Info Mod - 7 Days to Die (V1.0) Addon
+# OCB Plant Growing Info Mod - 7 Days to Die (V2.0) Addon
 
 Reveal progress and light info when looking at growing plants.
 
@@ -18,6 +18,10 @@ Otherwise please use one of the [official releases][1] here.
 Only clone or download the repo if you know what you do!
 
 ## Changelog
+
+### Version 0.4.0
+
+- Update for 7D2D V2.0 (b295)
 
 ### Version 0.3.0
 
